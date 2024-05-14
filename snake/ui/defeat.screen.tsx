@@ -8,7 +8,7 @@ export default class DefeatScreen extends Component
     {
         return(
             <div id="defeat">
-                <h3 className="defeat_title">JUEGO TERMINADO</h3>
+                <img src="/ui/game_over.png" alt="cartel de fin de juego" />
                 <button onClick={() => State.setCurrent(States.menu)} className="button">MENU</button>
             </div>
         )

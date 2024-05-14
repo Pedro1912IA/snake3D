@@ -6,11 +6,11 @@ export default class Panel extends Component
     {
         return(
             <div id="panel">
-                <h3 className="title">Creditos</h3>
+                <h3 className="title">Credits</h3>
                 <div className="text">
-                    <p>Proyecto creado por Pedro Araoz</p><br />
-                    <p>Basado en https://github.com//BabylonJs/SpacePirates</p><br />
-                    <p>Realizado con React JS, TypeScript y Three JS</p>
+                    <p>Project made by Pedro Araoz</p><br />
+                    <p>Based on https://github.com//BabylonJs/SpacePirates</p><br />
+                    <p>created with React JS, TypeScript y Three JS</p>
 
                 </div>
                 <img src="/ui/textpanel.png" alt="Panel azul" />

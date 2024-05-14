@@ -24,11 +24,11 @@ export class GUIManager
         const menu = document.getElementById('menu')
         const credit = document.createElement('button')
         credit.className = 'button'
-        credit.innerHTML = 'CREDITOS'
+        credit.innerHTML = 'CREDITS'
         credit.onclick = () => State.setCurrent(States.credit)
         const game = document.createElement('button')
         game.className = 'button'
-        game.innerHTML = 'JUGAR'
+        game.innerHTML = 'PLAY'
         game.onclick = () => State.setCurrent(States.game)
         menu.appendChild(game)
         menu.appendChild(credit)
@@ -40,7 +40,7 @@ export class GUIManager
         const menu = document.getElementById('menu')
         const back = document.createElement('button')
         back.className = 'button'
-        back.innerHTML = 'ATRAS'
+        back.innerHTML = 'BACK'
         back.onclick = () => State.setCurrent(States.menu)
         menu.appendChild(back)
     }

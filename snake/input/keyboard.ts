@@ -28,6 +28,19 @@ export class InputManager
                 case 'ArrowRight':
                     if(Snake.direction !== Directions.left) this.input = Directions.right
                 break;
+
+                case 'w':
+                    if(Snake.direction !== Directions.down) this.input = Directions.up
+                break;
+                case 's':
+                    if(Snake.direction !== Directions.up) this.input = Directions.down
+                break;
+                case 'a':
+                    if(Snake.direction !== Directions.right) this.input = Directions.left
+                break;
+                case 'd':
+                    if(Snake.direction !== Directions.left) this.input = Directions.right
+                break;
         
             
         }

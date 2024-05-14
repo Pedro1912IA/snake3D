@@ -8,7 +8,7 @@ export default class VictoryScreen extends Component
     {
         return(
             <div id="victory">
-                <h3 className="victory_title">Ganaste</h3>
+                <img src="/ui/you_win.png" alt="cartel de victoria" />
                 <button onClick={() => State.setCurrent(States.menu)} className="button">MENU</button>
             </div>
         )

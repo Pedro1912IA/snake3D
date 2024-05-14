@@ -24,7 +24,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: transparent;
-    color: rgb(69, 146, 67);
+    color: white;
     border: none;
     text-transform: uppercase;
     text-align: right;
@@ -38,7 +38,7 @@ body{
     filter: contrast(130%);
     scale: 1.01;
     transition: 0.1s;
-    color: white;
+    color: rgb(69, 146, 67);
 }
 
 @media(max-width: 800px) {
