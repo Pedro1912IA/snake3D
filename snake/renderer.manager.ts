@@ -3,6 +3,7 @@ import { SceneManager } from "./scene.manager"
 import {EffectComposer} from 'three/examples/jsm/postprocessing/EffectComposer'
 import {RenderPass} from 'three/examples/jsm/postprocessing/RenderPass'
 import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass'
+import { GUIManager } from "./gui.manager"
 
 export class RenderManager
 {
@@ -14,6 +15,7 @@ export class RenderManager
 
     private constructor()
     {
+        GUIManager.createScore()
         SceneManager.init()
         RenderManager.init()
         window.addEventListener('resize', RenderManager.resize)

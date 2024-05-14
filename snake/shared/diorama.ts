@@ -53,5 +53,6 @@ export class Diorama implements LifeCycle
         this.stop = true
         this.snake.dispose()
         this.food.dispose()
+        this.ground.dispose()
     }
 }
